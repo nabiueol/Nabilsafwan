@@ -1,4 +1,4 @@
- "use client";
+"use client";
 import React, { useEffect, useState } from 'react';
 import Hero from '@/components/Hero';
 import About from '@/components/About';
@@ -9,7 +9,7 @@ import Link from 'next/link';
 import Kontak from '@/components/Kontak';
 import Footer from '@/components/Footer';
 
-function Page() {
+function page() {
   const [menu, setMenu] = useState(false);
   const [header, setHeader] = useState(false);
 
@@ -130,4 +130,4 @@ function Page() {
   );
 }
 
-export default Page;
+export default page;

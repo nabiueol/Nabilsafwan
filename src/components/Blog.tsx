@@ -1,5 +1,5 @@
 import React from 'react'
-import { par1, par2, par3 } from '@/assets/portofolio'
+import { par1, par2, par3, par4 } from '@/assets/portofolio'
 import Link from 'next/link'
 import Image from 'next/image'
 function Blog() {
