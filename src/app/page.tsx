@@ -9,7 +9,7 @@ import Link from 'next/link';
 import Kontak from '@/components/Kontak';
 import Footer from '@/components/Footer';
 
-function page() {
+function Page() {
   const [menu, setMenu] = useState(false);
   const [header, setHeader] = useState(false);
 
@@ -130,4 +130,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;
